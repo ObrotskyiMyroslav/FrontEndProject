@@ -5,9 +5,8 @@
 
 Папка my-library-app це FrontEnd частина, папка library-backend відповідно BackEnd частина
 
-!!!!!!!!!!!!!!!!!!
 В адмін панелі яка доступна за логіном "admin" та паролем "qwerty123" є більше реалізованих цікавих речей
-!!!!!!!!!!!!!!!!!!!!!!!
+
 
 # Getting Started with Create React App
 
