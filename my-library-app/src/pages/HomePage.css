@@ -1,0 +1,83 @@
+.hero-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f0f8ff;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.hero-section h1 {
+    font-size: 2.8em;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.lead-text {
+    font-size: 1.2em;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    line-height: 1.6;
+}
+
+.hero-button {
+    padding: 12px 25px;
+    font-size: 1.1em;
+}
+
+.recommended-books-section,
+.features-section,
+.about-us-section,
+.call-to-action-section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.recommended-books-section h2,
+.features-section h2,
+.about-us-section h2,
+.call-to-action-section h2 {
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.feature-item {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.feature-item h3 {
+    color: #34495e;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+.feature-item p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.call-to-action-section {
+    background-color: #ecf0f1;
+    padding: 50px 20px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.call-to-action-section p {
+    font-size: 1.3em;
+    color: #34495e;
+    margin-bottom: 25px;
+}

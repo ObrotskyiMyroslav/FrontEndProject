@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог книг - Книжковий Світ</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1 class="site-title">Книжковий Світ</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="catalog.html" class="active">Каталог</a></li>
+                    <li><a href="book-details.html">Деталі книги (приклад)</a></li>
+                    <li><a href="contacts.html">Контакти</a></li>
+                    <li><a href="#">Вхід / Реєстрація</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="catalog-section">
+            <div class="container">
+                <h2>Наш Каталог Книг</h2>
+                <p>Перегляньте нашу колекцію книг:</p>
+
+                <table class="book-table">
+                    <thead>
+                        <tr>
+                            <th>Назва книги</th>
+                            <th>Автор</th>
+                            <th>Рік видання</th>
+                            <th>Жанр</th>
+                            <th>Рейтинг</th>
+                            <th>Дії</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="book-details.html">Майстер і Маргарита</a></td>
+                            <td>Михайло Булгаков</td>
+                            <td>1967</td>
+                            <td>Фантастика, Сатира</td>
+                            <td>4.8</td>
+                            <td><a href="#" aria-label="Додати Майстер і Маргарита до обраного" role="button">Додати</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="book-details.html">1984</a></td>
+                            <td>Джордж Орвелл</td>
+                            <td>1949</td>
+                            <td>Антиутопія, Фантастика</td>
+                            <td>4.9</td>
+                            <td><a href="#" aria-label="Додати 1984 до обраного" role="button">Додати</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="book-details.html">Захар Беркут</a></td>
+                            <td>Іван Франко</td>
+                            <td>1883</td>
+                            <td>Історичний роман</td>
+                            <td>4.5</td>
+                            <td><a href="#" aria-label="Додати Захар Беркут до обраного" role="button">Додати</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="book-details.html">Хроніки Нарнії: Лев, Чаклунка і Шафа</a></td>
+                            <td>К.С. Льюїс</td>
+                            <td>1950</td>
+                            <td>Фентезі, Дитяча</td>
+                            <td>4.7</td>
+                            <td><a href="#" aria-label="Додати Хроніки Нарнії до обраного" role="button">Додати</a></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="6">Дані оновлюються щодня.</td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+                <p class="pagination">
+                    <a href="#">&laquo; Попередня</a>
+                    <a href="#" class="current-page">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">Наступна &raquo;</a>
+                </p>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Книжковий Світ. Усі права захищено.</p>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#">Політика конфіденційності</a></li>
+                    <li><a href="#">Умови використання</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

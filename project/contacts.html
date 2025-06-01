@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти - Книжковий Світ</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1 class="site-title">Книжковий Світ</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="book-details.html">Деталі книги (приклад)</a></li>
+                    <li><a href="contacts.html" class="active">Контакти</a></li>
+                    <li><a href="#">Вхід / Реєстрація</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <div class="container">
+                <h2>Наші Контакти</h2>
+                <div id="contact-message" class="message-area"></div> <p>Якщо у вас є запитання або пропозиції, будь ласка, заповніть форму нижче:</p>
+    
+                <form action="#" method="post" class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Ваше ім'я:</label>
+                        <input type="text" id="name" name="user_name" required placeholder="Іван Петренко">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Ваш Email:</label>
+                        <input type="email" id="email" name="user_email" required placeholder="example@gmail.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Тема звернення:</label>
+                        <select id="subject" name="user_subject">
+                            <option value="">Оберіть тему</option>
+                            <option value="question">Запитання</option>
+                            <option value="suggestion">Пропозиція</option>
+                            <option value="bug_report">Повідомити про помилку</option>
+                            <option value="other">Інше</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Ваше повідомлення:</label>
+                        <textarea id="message" name="user_message" rows="8" required placeholder="Введіть ваше повідомлення тут..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="checkbox" id="subscribe" name="subscribe_newsletter">
+                        <label for="subscribe">Підписатися на розсилку новин</label>
+                    </div>
+
+                    <button type="submit" class="button">Надіслати повідомлення</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Книжковий Світ. Усі права захищено.</p>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#">Політика конфіденційності</a></li>
+                    <li><a href="#">Умови використання</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
